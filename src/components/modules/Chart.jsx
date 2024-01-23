@@ -33,9 +33,6 @@ function Chart({ chart, setChart, currency }) {
 
   return (
     <div className={styles.container} onClick={closeHandler} id="container">
-      {/* <span className={styles.cross} onClick={() => setChart(null)}>
-        X
-      </span> */}
       <div className={styles.chart}>
         <div className={styles.name}>
           <img src={chart.coin.image} alt={chart.coin.symbol} />
